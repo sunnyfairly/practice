@@ -1,0 +1,138 @@
+/* Topbox stuff */
+header {
+	margin-left: 150px;
+	margin-right: 150px;
+	width: 1000px;
+	height: 150px;
+	border: 5px;
+	border-color: black;
+	border-style: solid;
+		background-position: center;
+	 	background-image: url('images/pano.JPG');
+	 	background-repeat: no-repeat;
+	 	background-size: 1000px 150px;
+	 }
+/* menu dropdown */
+.dropbox {
+	margin: 130 40 0;
+	color: white;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+	position: relative;
+	display: inline-block;
+}
+.dropbox-content {
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: 0;
+	color: black;
+	background-color: white;
+	position: absolute;
+	display: none;
+}
+.dropbox:hover .dropbox-content{
+	display: block;
+}
+
+/* body */
+body {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      margin: 0;
+      padding: 0;
+      background-color: #222d4a;
+    }
+/* This contains the 3 boxes and some words */
+.div1 {
+	width:1000px;
+	height: 500px;
+	margin-left: 150;
+	margin-right: 150;
+	border: 5px;
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+	}
+/* First & Second Sentence with box */
+.box1 {
+	height: 200px;
+	width: 200px;
+	margin: 5;
+	padding: 5 5;
+	border: 5px;
+	border-style: solid;
+	border-color: blue;
+	overflow: auto;
+	float: right;
+	}	
+.box1a {
+	height: 75px;
+	width: 75px;
+	margin: 0;
+	padding: 0;
+	border: 10px;
+	border-style: solid;
+	border-color: blue;
+	text-align: center;
+	overflow: auto;
+	}
+/* index and dropmenu */		
+.box2 {
+	width: 150px;
+	height: 200px;
+	margin: 5;
+	padding: 15 15;
+	font-style: bold;
+	border: 5px;
+	border-style: solid;
+	border-color: blue;
+	overflow: auto;
+	float: left;
+	}
+/* Some words with lady liberty */	
+.words {
+	width: 450px;
+	height: 300px;
+	margin: 5;
+	padding: 3;
+	border: 5px;
+	border-style: solid;
+	border-color: blue;
+	background-color: gray;
+	overflow: auto;
+	float: left;
+	}
+.p {
+	padding-top: 10;	
+}
+.img {
+	margin: 2;
+	padding: 5 5;
+	position: static;
+	float: left;
+}
+.div2 {
+	width:1000px;
+	height: 500px;
+	margin-left: 150;
+	margin-right: 150;
+	background-color: white;
+	border: 5px;
+	border-style: solid;
+	border-color: black;
+	}
+footer {
+	width: 1000px;
+	height: 150px;
+	margin-left: 150px;
+	margin-right: 150px;
+	border: 5px;
+	border-color: black;
+	border-style: solid;
+	background-image: url('images/IMG_2488.JPG');
+	background-repeat: no-repeat;
+	background-size: 1000px 150px;
+	}
