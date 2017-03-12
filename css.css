@@ -1,6 +1,6 @@
 /* Topbox stuff */
 header {
-	margin-left: 150px;
+	margin-left: 100px;
 	margin-right: 150px;
 	width: 1000px;
 	height: 150px;
@@ -14,8 +14,9 @@ header {
 	 }
 /* menu dropdown */
 .dropbox {
-	margin: 130 40 0;
+	margin: 120 40 0;
 	color: white;
+	background-color: black;
 	border: 2px;
 	border-style: solid;
 	border-color: black;
@@ -24,16 +25,89 @@ header {
 }
 .dropbox-content {
 	width: 200px;
-	height: 200px;
+	height: 100px;
 	display: block;
 	margin: 0;
+	min-width: 100%;
 	color: black;
-	background-color: white;
+	background-color: gray;
 	position: absolute;
 	display: none;
+	z-index: 1;1
+}
+.dropbox-content a {
+	color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropbox-content a:hover {
+	color: blue;
+	font-weight: bold;
+	background-color: yellow;
 }
 .dropbox:hover .dropbox-content{
 	display: block;
+}
+.dropbtn {
+	width: 200px;
+	height: 75px;
+	display: block;
+	position: absolute;
+	background-color: blue;
+	color: white;
+	margin: 5;
+	display: block;
+	cursor: pointer;
+}
+
+
+.dropbox1 {
+	margin: 120 40 0;
+	color: white;
+	background-color: black;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+	position: relative;
+	display: inline-block;
+}
+.dropbox1-content {
+	width: 200px;
+	height: 150px;
+	display: block;
+	margin: 0;
+	color: black;
+	background-color: gray;
+	position: absolute;
+	display: none;
+}
+.dropbox1-content a {
+	color: black;
+	margin: 0;
+	border: 1px;
+	border-color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropbox1-content a:hover {
+	color: yellow;
+	background-color: black;
+}
+.dropbox1:hover .dropbox1-content{
+	display: block;
+}
+.dropbtn1 {
+	width: 200px;
+	height: 75px;
+	display: block;
+	position: absolute;
+	background-color: blue;
+	color: white;
+	margin: 5;
+	display: block;
+	cursor: pointer;
 }
 
 /* body */
@@ -49,7 +123,7 @@ body {
 .div1 {
 	width:1000px;
 	height: 500px;
-	margin-left: 150;
+	margin-left: 100;
 	margin-right: 150;
 	border: 5px;
 	border-style: solid;
@@ -82,7 +156,7 @@ body {
 /* index and dropmenu */		
 .box2 {
 	width: 150px;
-	height: 200px;
+	height: 100px;
 	margin: 5;
 	padding: 15 15;
 	font-style: bold;
@@ -92,16 +166,17 @@ body {
 	overflow: auto;
 	float: left;
 	}
+
 /* Some words with lady liberty */	
 .words {
 	width: 450px;
 	height: 300px;
 	margin: 5;
-	padding: 3;
+	padding: 2;
 	border: 5px;
 	border-style: solid;
-	border-color: blue;
-	background-color: gray;
+	border-color: transparent;
+	background-color: white;
 	overflow: auto;
 	float: left;
 	}
@@ -117,7 +192,7 @@ body {
 .div2 {
 	width:1000px;
 	height: 500px;
-	margin-left: 150;
+	margin-left: 100;
 	margin-right: 150;
 	background-color: white;
 	border: 5px;
@@ -127,7 +202,7 @@ body {
 footer {
 	width: 1000px;
 	height: 150px;
-	margin-left: 150px;
+	margin-left: 100px;
 	margin-right: 150px;
 	border: 5px;
 	border-color: black;
