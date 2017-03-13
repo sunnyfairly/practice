@@ -1,20 +1,22 @@
 /* Topbox stuff */
 header {
-	margin-left: 100px;
-	margin-right: 150px;
+	margin: 0 auto;
 	width: 1000px;
 	height: 150px;
-	border: 5px;
-	border-color: black;
-	border-style: solid;
 		background-position: center;
 	 	background-image: url('images/pano.JPG');
 	 	background-repeat: no-repeat;
 	 	background-size: 1000px 150px;
 	 }
 /* menu dropdown */
-.dropbox {
-	margin: 120 40 0;
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.dropbox,
+.dropboxlast {
+	margin: 120 25 0 50;
 	color: white;
 	background-color: black;
 	border: 2px;
@@ -23,91 +25,54 @@ header {
 	position: relative;
 	display: inline-block;
 }
-.dropbox-content {
-	width: 200px;
-	height: 100px;
+.dropbox-content{
+	width: 170px;
 	display: block;
-	margin: 0;
+	margin: 0 auto;
 	min-width: 100%;
 	color: black;
 	background-color: gray;
 	position: absolute;
 	display: none;
-	z-index: 1;1
+	z-index: 1;
 }
-.dropbox-content a {
+.dropboxlast-content {
+	width: 120px;
+	display: block;
+	margin: 0 auto;
+	min-width: 100%;
+	color: black;
+	background-color: gray;
+	position: absolute;
+	display: none;
+	z-index: 1;
+}
+.dropbox-content a,
+.dropboxlast-content a {
 	color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
-.dropbox-content a:hover {
+.dropbox-content a:hover,
+.dropboxlast-content a:hover {
 	color: blue;
 	font-weight: bold;
 	background-color: yellow;
 }
-.dropbox:hover .dropbox-content{
+.dropbox:hover .dropbox-content,
+.dropboxlast:hover .dropboxlast-content {
 	display: block;
 }
 .dropbtn {
 	width: 200px;
 	height: 75px;
-	display: block;
-	position: absolute;
 	background-color: blue;
 	color: white;
-	margin: 5;
-	display: block;
+	padding: 0;
+	margin: 0 auto;
 	cursor: pointer;
-}
-
-
-.dropbox1 {
-	margin: 120 40 0;
-	color: white;
-	background-color: black;
-	border: 2px;
-	border-style: solid;
-	border-color: black;
-	position: relative;
-	display: inline-block;
-}
-.dropbox1-content {
-	width: 200px;
-	height: 150px;
-	display: block;
-	margin: 0;
-	color: black;
-	background-color: gray;
-	position: absolute;
-	display: none;
-}
-.dropbox1-content a {
-	color: black;
-	margin: 0;
-	border: 1px;
-	border-color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-.dropbox1-content a:hover {
-	color: yellow;
-	background-color: black;
-}
-.dropbox1:hover .dropbox1-content{
-	display: block;
-}
-.dropbtn1 {
-	width: 200px;
-	height: 75px;
-	display: block;
-	position: absolute;
-	background-color: blue;
-	color: white;
-	margin: 5;
-	display: block;
-	cursor: pointer;
+	overflow: auto;
 }
 
 /* body */
@@ -121,14 +86,10 @@ body {
     }
 /* This contains the 3 boxes and some words */
 .div1 {
-	width:1000px;
-	height: 500px;
-	margin-left: 100;
-	margin-right: 150;
-	border: 5px;
-	border-style: solid;
-	border-color: black;
+	width: 1000px;
+	margin: 0 auto;
 	background-color: white;
+	overflow: auto;
 	}
 /* First & Second Sentence with box */
 .box1 {
@@ -153,8 +114,50 @@ body {
 	text-align: center;
 	overflow: auto;
 	}
+
 /* index and dropmenu */		
 .box2 {
+	margin: 5;
+	padding: 15 15;
+	font-style: bold;
+	border: 5px;
+	border-style: solid;
+	border-color: blue;
+	overflow: auto;
+	display: inline-block;
+	}
+
+/* Some words with lady liberty */	
+.words {
+	width: 350px;
+	height: 250px;
+	margin: 5;
+	padding: 2;
+	background-color: white;
+	overflow: auto;
+	float: left;
+	}
+.p {
+	padding-left: 3;
+	font-weight: bold;		
+}
+.img {
+	margin: 0;
+	padding: 0;
+	position: static;
+	float: left;
+}
+
+/*Second large box with calendar*/
+.div2 {
+	width: 1000px;
+	margin: 2 auto;
+	background-color: white;
+		
+}
+
+/* index and dropmenu */		
+.box2a {
 	width: 150px;
 	height: 100px;
 	margin: 5;
@@ -164,13 +167,12 @@ body {
 	border-style: solid;
 	border-color: blue;
 	overflow: auto;
+	display: block;
 	float: left;
 	}
-
-/* Some words with lady liberty */	
-.words {
-	width: 450px;
-	height: 300px;
+.words1 {
+	width: 350px;
+	height: 200px;
 	margin: 5;
 	padding: 2;
 	border: 5px;
@@ -178,35 +180,67 @@ body {
 	border-color: transparent;
 	background-color: white;
 	overflow: auto;
-	float: left;
+	display: inline-block;
 	}
-.p {
-	padding-top: 10;	
-}
-.img {
-	margin: 2;
+h5 {
+	width: 150;
+	height: 200;
+	margin: 5;
+	padding-top: 20;
+	display: inline-block;
+	overflow: auto;
+}	
+.box11 {
+	height: 200px;
+	width: 200px;
+	margin: 5;
 	padding: 5 5;
-	position: static;
-	float: left;
-}
-.div2 {
-	width:1000px;
-	height: 500px;
-	margin-left: 100;
-	margin-right: 150;
-	background-color: white;
 	border: 5px;
 	border-style: solid;
-	border-color: black;
+	border-color: blue;
+	display: inline-block;
+	overflow: auto;
+	}	
+.box11a {
+	height: 75px;
+	width: 75px;
+	margin: 0;
+	padding: 0;
+	border: 10px;
+	border-style: solid;
+	border-color: blue;
+	text-align: center;
+	overflow: auto;
 	}
+/*Calendar*/
+.calendar{
+	width: 400px;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    background-color: black
+}
+.h6 {
+	margin: 0;
+	text-align: center;
+	color: gray;
+	background-color: black
+}
+.widget_iframe {
+     width: 400px;
+     height: 150px;
+     margin: 0 auto;
+     padding: 0;
+     border: 0;
+     overflow: auto;
+ 	}
+
+
+
 footer {
 	width: 1000px;
 	height: 150px;
-	margin-left: 100px;
-	margin-right: 150px;
-	border: 5px;
-	border-color: black;
-	border-style: solid;
+	margin: 0 auto;
 	background-image: url('images/IMG_2488.JPG');
 	background-repeat: no-repeat;
 	background-size: 1000px 150px;
