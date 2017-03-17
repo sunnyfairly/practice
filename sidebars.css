@@ -12,7 +12,7 @@ body {
 .main {
 	width: 60%;
 	margin-top: 150;
-	padding: 0;
+	padding: 5;
 	display: inline-block;
 }
 
@@ -20,6 +20,6 @@ body {
 	position: fixed;
 	top: 150;
 	width: 40%;
-	padding: 0;
+	padding: 5;
 	display: inline-block;
 }
