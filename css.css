@@ -11,7 +11,15 @@ header {
 	 	background-size: 1000px 150px;
 	 }
 
-
+/*menu bar*/
+.menubar {
+	top: 150;
+	left: 143;
+	position: fixed;
+	margin: 0 auto;
+	width: 1000px;
+	background-color: #000000;
+}
 /* menu dropdown */
 ul {
 	margin: 0;
@@ -20,7 +28,7 @@ ul {
 }
 .dropbox,
 .dropboxlast {
-	margin: 120 45 0 50;
+	margin: 3 45 0 50;
 	background-color: black;
 	border: 2px;
 	border-style: solid;
@@ -30,7 +38,7 @@ ul {
 }
 
 .dropboxlast {
-	margin: 120 50 0 20;
+	margin: 3 50 0 20;
 	float: right;
 }
 .dropbox-content{
@@ -38,8 +46,8 @@ ul {
 	display: block;
 	margin: 0 auto;
 	min-width: 100%;
-	color: black;
-	background-color: white;
+	color: white;
+	background-color: #222d4a;
 	position: absolute;
 	display: none;
 	z-index: 1;
@@ -49,8 +57,8 @@ ul {
 	display: block;
 	margin: 0 auto;
 	min-width: 100%;
-	color: black;
-	background-color: white;
+	color: white;
+	background-color: #222d4a;
 	position: absolute;
 	display: none;
 	z-index: 1;
@@ -59,6 +67,7 @@ ul {
 .dropboxlast-content a {
     padding: 12px 16px;
     text-decoration: none;
+    color:white;
     display: block;
 }
 .dropbox-content a:hover,
@@ -66,6 +75,7 @@ ul {
 	color: blue;
 	font-weight: bold;
 	background-color: yellow;
+
 }
 .dropbox:hover .dropbox-content,
 .dropboxlast:hover .dropboxlast-content {
@@ -95,8 +105,7 @@ body {
 .div1 {
 	width: 1000px;
 	margin: 0 auto;
-
-    margin-top: 150;
+    margin-top: 178;
 	background-color: white;
 	overflow: auto;
 	}
