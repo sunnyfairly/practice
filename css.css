@@ -1,11 +1,9 @@
-/*html {
-	margin: 0 auto;
-}*/
 
 
 
 /* Topbox stuff */
 header {
+	top: 0;
 	left: 143;
 	position: fixed;
 	width: 1000px;
@@ -100,6 +98,8 @@ body {
 .div1 {
 	width: 1000px;
 	margin: 0 auto;
+
+    margin-top: 150;
 	background-color: white;
 	overflow: auto;
 	}
