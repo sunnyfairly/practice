@@ -1,0 +1,25 @@
+html {
+	margin: 0 auto;
+}
+
+
+/*SIDEBAR PAGE*/
+body {
+	background-color: white;
+	width: 100%	;
+
+}
+.main {
+	width: 60%;
+	margin-top: 150;
+	padding: 0;
+	display: inline-block;
+}
+
+.sidebar {
+	position: fixed;
+	top: 150;
+	width: 40%;
+	padding: 0;
+	display: inline-block;
+}
